@@ -1,11 +1,10 @@
 package com.company;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         System.out.println("Введите выражение");
         Scanner s = new Scanner(System.in);
         String str = s.nextLine().replaceAll("\\s","");
